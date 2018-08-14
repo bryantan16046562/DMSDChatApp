@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    android:padding="16sp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:paddingBottom="15sp"
+        android:text="Weather Forecast @ Woodlands Cloudy" />
+
+    <ListView
+        android:id="@+id/listViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+    <EditText
+        android:id="@+id/etmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="enter message here"
+         />
+    <Button
+        android:id="@+id/btnAddMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MESSAGE" />
+</LinearLayout>
